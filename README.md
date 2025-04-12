@@ -1,15 +1,19 @@
 # WordDocumentMediaExtractor
 <p align="center">
-  <img src="Distribution/WordExtractorIcon.ico" alt="Icon" width="400"/>
+  <img src="Distribution/WordExtractorIcon.ico" alt="Icon" width="200"/>
 </p>
 
-Collection of simple python scripts useful for extracting images, gifs, videos and from .doc and .docx documents.
+A collection of simple Python scripts useful for extracting images, GIFs, videos, and other media from `.doc` and `.docx` documents.
 
-How to use:
-Simple place you documents to Source folder and run WordExtractorRunner.py script
+## How to Use
 
-Alternatively you can generate .exe file by going to Distribution and running .bat script. Then in dist folder you'll get an executable you can easily use anywhere.
-Just keep in mind to have your documents in the same folder as the .exe file.
+1. Place your documents in the `Source` folder.
+2. Run the `WordExtractorRunner.py` script.
 
-Output:
-A new folder will be created for each of your documents with parsed text (into .json) and media files.
+Alternatively, you can generate an executable `.exe` file by navigating to the `Distribution` folder and running the `.bat` script. This will create an executable file that you can use anywhere. Just make sure to keep your documents in the same folder as the `.exe` file.
+
+## Output
+
+For each document processed, a new folder will be created containing:
+- The parsed text in `.json` format.
+- The extracted media files.
