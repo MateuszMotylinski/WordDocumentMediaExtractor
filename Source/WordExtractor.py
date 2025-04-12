@@ -445,22 +445,7 @@ class DocxToJsonParser:
             with open(self.m_strOutputDir + "/" + PathAndName["DocumentName"] + "/" +  PathAndName["DocumentName"] + ".json", "w") as outfile:
                 outfile.write(json_object)
             
-# Get the path of the folder where the script is located
-script_folder = os.path.dirname(os.path.abspath(__file__))
 
-# Initialize an empty list to store Word documents
-word_docs = []
-
-# Loop through files in the script folder
-for filename in os.listdir(script_folder):
-    if filename.endswith(".doc") or filename.endswith(".docx"):
-        word_docs.append(filename)
-        
-parser = DocxToJsonParser()
-#parser.SetDocxFilesList(word_docs)
-parser.ParseAllProjectPagesDocxToJson()
-
-input("Press Enter to exit...")
 
 
 
