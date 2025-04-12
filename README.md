@@ -1,5 +1,7 @@
 # WordDocumentMediaExtractor
-![Alt text](Distribution/WordExtractorIcon.ico)
+<p align="center">
+  <img src="Distribution/WordExtractorIcon.ico" alt="Icon" width="400"/>
+</p>
 
 Collection of simple python scripts useful for extracting images, gifs, videos and from .doc and .docx documents.
 
